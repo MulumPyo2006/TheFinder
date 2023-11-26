@@ -1,0 +1,79 @@
+.playBtn {
+    -fx-background-color: transparent;
+}
+
+
+.howToPlayBtn {
+    -fx-background-color: transparent;
+}
+
+
+.playBtn:hover {
+    -fx-background-image: url(PlayButton.png);
+    -fx-background-size: cover;
+    -fx-background-position: center;
+}
+
+
+.howToPlayBtn:hover {
+    -fx-background-image: url(HowToPlayButton.png);
+    -fx-background-size: cover;
+    -fx-background-position: center;
+}
+
+
+.nextBtn {
+    -fx-background-image: url(BackButton.png);
+    -fx-background-size: cover;
+    -fx-background-position: center;
+}
+
+
+.haminGhost {
+    -fx-background-image: url(HaminGhost.png);
+    -fx-background-size: cover;
+    -fx-background-position: center;
+}
+
+
+.haminGhostTwo {
+    -fx-background-image: url(HaminGhost2.png);
+    -fx-background-size: cover;
+    -fx-background-position: center;
+}
+
+
+.haminGhostThree {
+    -fx-background-image: url(HaminGhost3.png);
+    -fx-background-size: cover;
+    -fx-background-position: center;
+}
+
+
+.haminGhostFour {
+    -fx-background-image: url(HaminGhost4.png);
+    -fx-background-size: cover;
+    -fx-background-position: center;
+}
+
+
+.ghost {
+    -fx-background-image: url(Ghost.png);
+    -fx-background-size: cover;
+    -fx-background-position: center;
+}
+
+
+.theCross {
+    -fx-background-image: url(TheCross.png);
+    -fx-background-size: cover;
+    -fx-background-position: center;
+}
+
+
+.manHole {
+    -fx-background-image: url(ManHole.png);
+    -fx-background-size: cover;
+    -fx-background-position: center;
+}
+

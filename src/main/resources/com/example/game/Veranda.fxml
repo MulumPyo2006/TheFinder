@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="1010.0" prefWidth="1920.0" styleClass="veranda" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.game.GameSet">
+   <children>
+      <Text fill="#e1c7c7" layoutX="449.0" layoutY="471.0" strokeType="OUTSIDE" strokeWidth="0.0" text="지하로가는문?" wrappingWidth="290.12109375">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Button fx:id="changeBtn_Veranda" layoutX="439.0" layoutY="458.0" mnemonicParsing="false" onAction="#changeScene_Veranda" prefHeight="123.0" prefWidth="140.0">
+         <styleClass>
+            <String fx:value="backGroundColorX" />
+            <String fx:value="manHole" />
+         </styleClass>
+         <stylesheets>
+            <URL value="@../../../Image/Button/BtnSheet.css" />
+            <URL value="@../../../Image/Button/TextSheet.css" />
+         </stylesheets>
+      </Button>
+      <Button layoutX="1268.0" layoutY="185.0" mnemonicParsing="false" onAction="#bottleTextChange" prefHeight="384.0" prefWidth="316.0">
+         <stylesheets>
+            <URL value="@../../../Image/Button/BtnSheet.css" />
+            <URL value="@../../../Image/Object/ObjectSheet.css" />
+            <URL value="@../../../Image/Button/TextSheet.css" />
+         </stylesheets>
+         <styleClass>
+            <String fx:value="backGroundColorX" />
+            <String fx:value="bottle" />
+         </styleClass>
+      </Button>
+      <Button fx:id="flowerBottle" layoutX="252.0" layoutY="210.0" mnemonicParsing="false" onAction="#moveObjectTwo" prefHeight="466.0" prefWidth="409.0">
+         <stylesheets>
+            <URL value="@../../../Image/Object/ObjectSheet.css" />
+            <URL value="@../../../Image/Button/BtnSheet.css" />
+            <URL value="@../../../Image/Button/TextSheet.css" />
+         </stylesheets>
+         <styleClass>
+            <String fx:value="flowerBottle" />
+            <String fx:value="backGroundColorX" />
+         </styleClass>
+      </Button>
+      <Button fx:id="ghost" layoutX="-297.0" layoutY="37.0" mnemonicParsing="false" onAction="#moveGhost" prefHeight="372.0" prefWidth="297.0">
+         <styleClass>
+            <String fx:value="backGroundColorX" />
+            <String fx:value="ghost" />
+         </styleClass>
+         <stylesheets>
+            <URL value="@../../../Image/Button/BtnSheet.css" />
+            <URL value="@../../../Image/Button/TextSheet.css" />
+         </stylesheets>
+      </Button>
+      <Button fx:id="moveGhostBtn" layoutX="795.0" layoutY="25.0" mnemonicParsing="false" onAction="#moveGhost" prefHeight="58.0" prefWidth="73.0">
+         <styleClass>
+            <String fx:value="theCross" />
+            <String fx:value="backGroundColorX" />
+         </styleClass>
+         <stylesheets>
+            <URL value="@../../../Image/Button/BtnSheet.css" />
+            <URL value="@../../../Image/Button/TextSheet.css" />
+         </stylesheets>
+      </Button>
+      <Text fx:id="bottleText" fill="#610911" layoutX="1506.0" layoutY="294.0" strokeType="OUTSIDE" strokeWidth="0.0" text="병?" wrappingWidth="268.109375">
+         <font>
+            <Font size="50.0" />
+         </font>
+      </Text>
+   </children>
+   <stylesheets>
+      <URL value="@../../../Image/ScreenSheet.css" />
+      <URL value="@../../../Image/Button/BtnSheet.css" />
+   </stylesheets>
+</AnchorPane>

@@ -1,0 +1,21 @@
+.remainText {
+    -fx-background-color: rgba(193,22,20,0.63);
+}
+
+.backGroundColor {
+    -fx-background-color: rgba(0,0,0,1);
+}
+
+
+.backGroundColorX {
+    -fx-background-color: rgba(0,0,0,0);
+}
+
+
+.backGroundColor2 {
+    -fx-background-color: transparent;
+}
+
+.backGroundColor3 {
+    -fx-background-color: black;
+}

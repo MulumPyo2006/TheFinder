@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="1010.0" prefWidth="1920.0" styleClass="newsPaperScreen" stylesheets="@../../../Image/ScreenSheet.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.game.NewsPaperScreenSet">
+   <children>
+      <Button fx:id="changeBtn_MainScreenTwo" layoutX="1710.0" layoutY="811.0" mnemonicParsing="false" onAction="#changeScene_MainScreenTwo" prefHeight="185.0" prefWidth="196.0" styleClass="nextBtn" stylesheets="@../../../Image/Button/BtnSheet.css">
+         <font>
+            <Font name="Calibri" size="54.0" />
+         </font>
+      </Button>
+      <Text layoutX="989.0" layoutY="384.0" strokeType="OUTSIDE" strokeWidth="0.0" text="한 저택에서 귀신이 출몰 했다는 소식이 끊임없이" wrappingWidth="686.0">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Text>
+      <Text layoutX="989.0" layoutY="428.0" strokeType="OUTSIDE" strokeWidth="0.0" text="접수 되는 가운데, 귀신을 전부 찾아내면 현상금을" wrappingWidth="686.0">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Text>
+      <Text layoutX="989.0" layoutY="472.0" strokeType="OUTSIDE" strokeWidth="0.0" text="준다는 얘기가 나온다." wrappingWidth="686.0">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Text>
+      <Text layoutX="989.0" layoutY="724.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(곳곳에 있는 귀신을 찾아내세요.)" wrappingWidth="686.0">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

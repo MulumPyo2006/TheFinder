@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="1010.0" prefWidth="1920.0" styleClass="firstRoomScreen" stylesheets="@../../../Image/ScreenSheet.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.game.GameSet">
+   <children>
+      <Button fx:id="changeBtn_GhostAppearTwo" layoutX="-197.0" layoutY="603.0" mnemonicParsing="false" onAction="#changeScene_GhostAppearTwo" prefHeight="162.0" prefWidth="200.0">
+         <styleClass>
+            <String fx:value="haminGhostFour" />
+            <String fx:value="backGroundColor" />
+         </styleClass>
+         <stylesheets>
+            <URL value="@../../../Image/Button/BtnSheet.css" />
+            <URL value="@../../../Image/Button/TextSheet.css" />
+         </stylesheets>
+      </Button>
+      <Button fx:id="bookBtn" layoutX="237.0" layoutY="-1022.0" mnemonicParsing="false" onAction="#moveBookBtn" prefHeight="947.0" prefWidth="1483.0">
+         <stylesheets>
+            <URL value="@../../../Image/Object/ObjectSheet.css" />
+            <URL value="@../../../Image/Button/TextSheet.css" />
+         </stylesheets>
+         <styleClass>
+            <String fx:value="backGroundColorX" />
+            <String fx:value="book" />
+         </styleClass>
+      </Button>
+      <Button layoutX="273.0" layoutY="14.0" mnemonicParsing="false" onAction="#bookShelfClick" prefHeight="549.0" prefWidth="865.0" styleClass="backGroundColorX">
+         <stylesheets>
+            <URL value="@../../../Image/Button/BtnSheet.css" />
+            <URL value="@../../../Image/Button/TextSheet.css" />
+         </stylesheets>
+      </Button>
+   </children>
+</AnchorPane>

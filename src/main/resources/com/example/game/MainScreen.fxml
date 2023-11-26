@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane onDragDetected="#loadPane" prefHeight="1010.0" prefWidth="1920.0" styleClass="mainBackGround" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.game.MainScreenSet">
+   <stylesheets>
+      <URL value="@../../../Image/ScreenSheet.css" />
+      <URL value="@../../../Image/Button/BtnSheet.css" />
+   </stylesheets>
+   <Pane layoutX="-50.0" prefHeight="1010.0" prefWidth="1920.0" styleClass="mainScreenImage">
+      <children>
+         <Button fx:id="changeBtn_Play" layoutX="163.0" layoutY="549.0" mnemonicParsing="false" onAction="#changeScene_Play" prefHeight="95.0" prefWidth="261.0" styleClass="playBtn" stylesheets="@../../../Image/ScreenSheet.css" />
+         <Button fx:id="changeBtn_HowToPlay" layoutX="163.0" layoutY="708.0" mnemonicParsing="false" onAction="#changeScene_HowToPlay" prefHeight="95.0" prefWidth="642.0" styleClass="howToPlayBtn" stylesheets="@../../../Image/Button/BtnSheet.css" />
+      </children></Pane>
+</AnchorPane>

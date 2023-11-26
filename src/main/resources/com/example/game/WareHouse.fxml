@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="1010.0" prefWidth="1920.0" styleClass="wareHouse" stylesheets="@../../../Image/ScreenSheet.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.game.GameSet">
+   <children>
+      <Text fx:id="radioText" fill="#cd3030" layoutX="1211.0" layoutY="493.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="454.109375">
+         <font>
+            <Font size="45.0" />
+         </font>
+      </Text>
+      <Button layoutX="1259.0" layoutY="342.0" mnemonicParsing="false" onAction="#radioTextChange" prefHeight="144.0" prefWidth="212.0" styleClass="backGroundColorX">
+         <stylesheets>
+            <URL value="@../../../Image/Button/BtnSheet.css" />
+            <URL value="@../../../Image/Button/TextSheet.css" />
+         </stylesheets></Button>
+      <Button fx:id="fan" layoutX="-133.0" layoutY="4.0" mnemonicParsing="false" onAction="#clickFan" prefHeight="160.0" prefWidth="127.0">
+         <stylesheets>
+            <URL value="@../../../Image/Button/BtnSheet.css" />
+            <URL value="@../../../Image/Object/ObjectSheet.css" />
+            <URL value="@../../../Image/Button/TextSheet.css" />
+         </stylesheets>
+         <styleClass>
+            <String fx:value="fanGif" />
+            <String fx:value="backGroundColorX" />
+         </styleClass>
+      </Button>
+      <Button fx:id="fanTwo" layoutX="524.0" layoutY="4.0" mnemonicParsing="false" prefHeight="160.0" prefWidth="127.0">
+         <stylesheets>
+            <URL value="@../../../Image/Object/ObjectSheet.css" />
+            <URL value="@../../../Image/Button/BtnSheet.css" />
+            <URL value="@../../../Image/Button/TextSheet.css" />
+         </stylesheets>
+         <styleClass>
+            <String fx:value="fanPng" />
+            <String fx:value="backGroundColorX" />
+         </styleClass>
+      </Button>
+      <Pane layoutX="1414.0" layoutY="60.0" prefHeight="284.0" prefWidth="212.0" styleClass="pictrue" stylesheets="@../../../Image/Object/ObjectSheet.css" />
+      <Button layoutX="1438.0" layoutY="84.0" mnemonicParsing="false" onAction="#movePicture" prefHeight="235.0" prefWidth="163.0">
+         <stylesheets>
+            <URL value="@../../../Image/Object/ObjectSheet.css" />
+            <URL value="@../../../Image/Button/BtnSheet.css" />
+         </stylesheets>
+         <styleClass>
+            <String fx:value="ghostTwoPng" />
+            <String fx:value="backGroundColorX" />
+         </styleClass>
+      </Button>
+      <Button fx:id="mirrorGhost" layoutX="-208.0" layoutY="84.0" mnemonicParsing="false" prefHeight="235.0" prefWidth="163.0" styleClass="ghostTwoJpg" stylesheets="@../../../Image/Object/ObjectSheet.css" />
+      <Pane layoutX="14.0" layoutY="49.0" prefHeight="307.0" prefWidth="357.0" styleClass="mirror" stylesheets="@../../../Image/Object/ObjectSheet.css" />
+      <Pane fx:id="mirrorText" layoutX="-347.0" layoutY="131.0" prefHeight="200.0" prefWidth="293.0" styleClass="mirrorText" stylesheets="@../../../Image/Object/ObjectSheet.css" />
+      <Button fx:id="mannequinBtn" layoutX="-249.0" layoutY="530.0" mnemonicParsing="false" onAction="#clickMannequin" prefHeight="99.0" prefWidth="98.0" styleClass="backGroundColorX">
+         <stylesheets>
+            <URL value="@../../../Image/Button/BtnSheet.css" />
+            <URL value="@../../../Image/Button/TextSheet.css" />
+         </stylesheets></Button>
+      <Button fx:id="finalGhost" layoutX="356.0" layoutY="-702.0" mnemonicParsing="false" onAction="#changeScene_WareHouse" prefHeight="609.0" prefWidth="1054.0">
+         <stylesheets>
+            <URL value="@../../../Image/Button/BtnSheet.css" />
+            <URL value="@../../../Image/Object/ObjectSheet.css" />
+            <URL value="@../../../Image/Button/TextSheet.css" />
+         </stylesheets>
+         <styleClass>
+            <String fx:value="ghost" />
+            <String fx:value="backGroundColorX" />
+         </styleClass>
+      </Button>
+   </children>
+</AnchorPane>

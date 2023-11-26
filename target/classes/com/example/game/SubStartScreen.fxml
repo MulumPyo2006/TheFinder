@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="1010.0" maxWidth="1920.0" minHeight="1010.0" minWidth="1920.0"
+            onDragDetected="#changeScene_MainScreen" prefHeight="1010.0" prefWidth="1920.0" styleClass="subStartScreen"
+            stylesheets="@../../../Image/ScreenSheet.css" xmlns="http://javafx.com/javafx/18"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.game.SubStartScreenSet">
+   <Button fx:id="changeBtn_GameStart" layoutX="749.0" layoutY="384.0" mnemonicParsing="false"
+           onAction="#changeScene_GameStart" opacity="0.0" text="Button"/>
+   <Button fx:id="changeBtn_MainScreen" layoutX="14.0" layoutY="14.0" mnemonicParsing="false"
+           onAction="#changeScene_MainScreen" prefHeight="185.0" prefWidth="196.0" styleClass="nextBtn"
+           stylesheets="@../../../Image/Button/BtnSheet.css"/>
+</AnchorPane>

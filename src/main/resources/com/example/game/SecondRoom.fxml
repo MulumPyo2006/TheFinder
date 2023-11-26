@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="1010.0" prefWidth="1920.0" styleClass="secondRoomScreen" stylesheets="@../../../Image/ScreenSheet.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.game.GameSet">
+   <children>
+      <Button fx:id="changeBtn_GhostAppearThree" layoutX="1565.0" layoutY="858.0" mnemonicParsing="false" onAction="#changeScene_GhostAppearThree" prefHeight="138.0" prefWidth="280.0">
+         <styleClass>
+            <String fx:value="haminGhostTwo" />
+            <String fx:value="backGroundColor" />
+         </styleClass>
+         <stylesheets>
+            <URL value="@../../../Image/Button/BtnSheet.css" />
+            <URL value="@../../../Image/Button/TextSheet.css" />
+         </stylesheets></Button>
+      <Button fx:id="mirrorTwo" layoutX="1474.0" layoutY="722.0" mnemonicParsing="false" onAction="#moveObject" prefHeight="285.0" prefWidth="443.0">
+         <stylesheets>
+            <URL value="@../../../Image/Object/ObjectSheet.css" />
+            <URL value="@../../../Image/Button/BtnSheet.css" />
+            <URL value="@../../../Image/Button/TextSheet.css" />
+         </stylesheets>
+         <styleClass>
+            <String fx:value="mirror" />
+            <String fx:value="backGroundColorX" />
+         </styleClass>
+      </Button>
+   </children>
+</AnchorPane>
